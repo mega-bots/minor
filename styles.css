@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff; /* White background */
+    background: linear-gradient(135deg, #87c4f4, #2ecc71); 
+
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 350px; /* Set a maximum height if needed */
+}
+
+header {
+    background: url('https://media.istockphoto.com/id/917911572/photo/standing-woman-on-the-hill-against-mountain-valley-at-bright-sunny-day-landscape-with-girl.jpg?s=612x612&w=is&k=20&c=o4Ba-6tLR497s-cmEXHh1HrpK9ileDMv_krtjCdUXNY=') center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+}
+
+header h1, header p {
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+section {
+    margin: 40px 0;
+}
+
+#contact {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#contact h2 {
+    color: white;
+}
+
+section h2 {
+    color: black;
+}
+
+#contact p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #4285f4; /* Google Blue */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
